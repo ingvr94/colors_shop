@@ -29,7 +29,7 @@
   <div class="container">
     <Header :cart_data="CART"/>
       <Hero /> 
-     <Products />
+      <Products />
        <ShoppingCart :cart_data="CART" v-if="this.$store.state.isModal" />
       <Footer />
   </div>

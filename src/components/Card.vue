@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1367px) {
     .card {
         width: 284px;
         height: 378px;
@@ -65,7 +65,7 @@ export default {
 
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1366px) {
     .card {
         width: 284px;
         height: 378px;

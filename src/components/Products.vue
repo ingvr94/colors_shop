@@ -152,6 +152,10 @@ methods: {
     gap:24px;
     }
 
+    .products__list {
+        justify-self: end;
+    }
+
     .products__catalog {
     margin-left: 138px;
     }
@@ -235,14 +239,15 @@ methods: {
     }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:500px) {
     .products {
-        padding: 48px 24px;
+        padding: 22px;
     }
     .products__list {
     grid-template-columns: repeat(2,1fr);
-    gap:15px;
+    gap: 15px;
     }
+
     .products__switchlist {
         display: none;
     }
@@ -259,11 +264,15 @@ methods: {
 }
 
 .products{
-    width: 100%;
+    min-width: 100%;
 }
 
 .products__switchlist{
     list-style-type: none;
+}
+.products__catalog {
+    width: 100%;
+
 }
 .products__categories {
     margin-bottom: 10px;
